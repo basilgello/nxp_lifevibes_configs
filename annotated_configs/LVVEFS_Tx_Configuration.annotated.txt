@@ -1,0 +1,93 @@
+93											                                // String 0: Total strings in the file
+19															// String 1: Parser Version
+1															// String 2: Data type: 0 = Set Rx Config Params; 1 = Set Tx Config Params; 2 = Set Rx Control Params; 3 = Set Tx Control Params
+1															// String 3: Tx Config Param Block: 1 or "LVM_MODE_ON" = LVM_MODE_ON; 0 or "LVM_MODE_OFF" = LVM_MODE_OFF
+42												                        // String 4: Control File Name Table total size in strings
+VVEFS_ABSOLUTE_PATH													// String 5: Controls "LVVEFS_ABSOLUTE_PATH" or "LVVEFS_RELATIVE_PATH"
+/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_EARPIECE.txt								// String 6 to (5 + 42): Control File Name Table
+/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/mVoIPWebEx/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+/vendor/etc/nxp/mVoIPWebEx/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIPWebEx/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIPWebEx/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIPWebEx/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Tx_ControlParams_NARROWBAND_EARPIECE.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Tx_ControlParams_NARROWBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt
+/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_EARPIECE.txt
+/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_SPEAKER.txt
+/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt
+8000															// String 48 to 50: FIFO Buffer 1
+0
+0
+8000															// String 51 to 53: FIFO Buffer 2
+0
+0
+8000															// String 54 to 56: FIFO Buffer 3
+0
+0
+8000															// String 57 to 59: FIFO Buffer 4
+0
+0
+1															// String 60: ??
+3															// String 61: ??
+0															// String 62: LVVEFS_DebugMode: 1 or "LVM_MODE_ON" = LVM_MODE_ON; 0 or "LVM_MODE_OFF" = LVM_MODE_OFF
+0															// String 63: LVVE_Status: 1 or "LVM_MODE_ON" = LVM_MODE_ON; 0 or "LVM_MODE_OFF" = LVM_MODE_OFF
+/data/nxp-dump/LVVEFS_Tx_LVHF_Status.bin										// String 64: LVVEFS_TX_CONFIG_LVVE_LVHF_STATUS_FILENAME: path to status file controlled by directive at String 5
+/data/nxp-dump/LVVEFS_Tx_LVNV_Status.bin										// String 65: LVVEFS_TX_CONFIG_LVVE_LVNV_STATUS_FILENAME: path to status file controlled by directive at String 5
+0															// String 66: ??
+0															// String 67: ??
+0															// String 68: ??
+0															// String 69 to 71: PCM Block 1
+16000
+/data/nxp-dump/Tx_in_mic.pcm
+0															// String 72 to 74: PCM Block 2
+16000
+/data/nxp-inject/TestInput_Tx.pcm
+0															// String 75 to 77: PCM Block 3
+16000
+/data/nxp-dump/Tx_in_ref.pcm
+0															// String 78 to 80: PCM Block 4
+16000
+/data/nxp-inject/TestInput_Tx.pcm
+0															// String 81 to 83: PCM Block 5
+16000
+/data/nxp-dump/Tx_out.pcm
+0															// String 84 to 86: PCM Block 6
+16000
+/data/nxp-inject/test_out.pcm
+0															// String 87 to 89: PCM BLock 7
+16000
+/data/nxp-dump/Tx_Internal_in.pcm
+0															// String 90 to 92: PCM Block 8
+16000
+/data/nxp-dump/Tx_Internal_ref.pcm

@@ -1,0 +1,60 @@
+60                                                                                      // String 0: Total strings in the file
+19                                                                                      // String 1: Parser Version
+0                                                                                       // String 2: Data type: 0 = Set Rx Config Params; 1 = Set Tx Config Params; 2 = Set Rx Control Params; 3 = Set Tx Control Params
+1                                                                                       // String 3: Tx Config Param Block: 1 or "LVM_MODE_ON" = LVM_MODE_ON; 0 or "LVM_MODE_OFF" = LVM_MODE_OFF
+30                                                                                      // String 4: Control File Name Table total size in strings
+LVVEFS_ABSOLUTE_PATH                                                                    // String 5: Controls "LVVEFS_ABSOLUTE_PATH" or "LVVEFS_RELATIVE_PATH"
+/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_EARPIECE.txt                          // String 6 to (5 + 30): Control File Name Table
+/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIP/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_EARPIECE.txt
+/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_EARPIECE.txt
+/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/mVoIPWebEx/Rx_ControlParams_WIDEBAND_EARPIECE.txt
+/vendor/etc/nxp/mVoIPWebEx/Rx_ControlParams_WIDEBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIPWebEx/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIPWebEx/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIPWebEx/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Rx_ControlParams_NARROWBAND_EARPIECE.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Rx_ControlParams_NARROWBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Rx_ControlParams_NARROWBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Rx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Rx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Rx_ControlParams_WIDEBAND_EARPIECE.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Rx_ControlParams_WIDEBAND_SPEAKER.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt
+/vendor/etc/nxp/mVoIPSecCallFwd/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+8000                                                                                    // String 36 to 38: FIFO Buffer 1
+0
+0
+8000											// String 39 to 41: FIFO BUffer 2
+0
+0
+0											// String 42: LVVEFS_DebugMode: 1 or "LVM_MODE_ON" = LVM_MODE_ON; 0 or "LVM_MODE_OFF" = LVM_MODE_OFF
+0											// String 43: LVVE_Status: 1 or "LVM_MODE_ON" = LVM_MODE_ON; 0 or "LVM_MODE_OFF" = LVM_MODE_OFF
+/data/nxp-dump/LVVEFS_Rx_Status.bin							// String 44: LVVEFS_TX_CONFIG_LVVE_LVHF_STATUS_FILENAME: path to status file controlled by directive at String 5
+0											// String 45 to 47: PCM Block 1
+16000
+/data/nxp-dump/Rx_in.pcm
+0											// String 48 to 50: PCM Block 2
+16000
+/data/nxp-inject/Fs44100_WhiteNoise_St.pcm
+0											// String 51 to 53: PCM Block 3
+16000
+/data/nxp-dump/Rx_out.pcm
+0											// String 54 to 56: PCM Block 4
+16000
+/data/EnglishVoice_VoIP.pcm
+0											// String 57 to 59: PCM BLock 5
+16000
+/data/nxp-dump/Rx_Internal_in.pcm

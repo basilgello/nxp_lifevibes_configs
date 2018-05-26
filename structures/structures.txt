@@ -1,0 +1,20 @@
+typedef struct _GUID
+{
+  int32_t Data1;
+  int16_t Data2;
+  int16_t Data3;
+  int8_t Data4[8];
+} GUID;
+
+
+typedef struct effect_descriptor_s
+{
+  GUID type;
+  GUID uuid;
+  uint32_t apiVersion;
+  uint32_t flags;
+  uint16_t cpuLoad;
+  uint16_t memoryUsage;
+  char name[64];
+  char implementor[64];
+} effect_descriptor_t;
